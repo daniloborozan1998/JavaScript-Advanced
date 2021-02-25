@@ -1,0 +1,124 @@
+.btn-default {
+    color: rgba(255, 255, 0, 0.699);
+    text-shadow: none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 0, 0.699);
+    ;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+table:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: url(../img/san-francisco-minimalist-city-jx.jpg) center center fixed;
+    background-size: cover;
+    color: rgba(255, 255, 0, 0.699);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: rgba(255, 255, 0, 0.699);
+    border-color: rgba(255, 255, 0, 0.699);
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: rgba(48, 53, 70, 0.5);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inner {
+    padding: 30px;
+}
+
+@media (min-width: 768px) {
+    .masthead-brand {
+        float: left;
+    }
+    .nav-masthead {
+        float: right;
+    }
+}
+
+.cover {
+    padding: 0 20px;
+}
+
+.cover .btn-notify {
+    padding: 10px 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.cover-heading {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+#img {
+    display: none;
+    margin: auto;
+}
+
+#nav {
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .cover-heading {
+        font-size: 3.4rem;
+        letter-spacing: 15px;
+    }
+}
+
+.cover-copy {
+    max-width: 500px;
+    margin: 0 auto 3rem;
+}
+
+@media (min-width: 768px) {
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+    .cover-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .cover-container {
+        width: 1060px;
+    }
+}
